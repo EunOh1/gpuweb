@@ -1,0 +1,128 @@
+.page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.textbox{
+    position: relative;
+    box-sizing: border-box;
+    width: 50rem;
+    height: auto;
+    padding: 5rem 0 3rem 0;
+    margin: 0 auto;
+}
+.borderp{
+    display: none;
+}
+.border{
+    border-bottom: 1px solid black;
+}
+.text{
+    height: 5rem;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 500;
+}
+.text:hover{
+    background-color: #C5FF00;
+    color: #B3B3B3;
+}
+
+.numbtn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+.numbtn p:hover{
+    color: #C5FF00;
+    cursor: pointer;
+}
+
+/*슬러그페이지*/
+.slugbox{
+    margin: 0 auto;
+    width: 50rem;
+    padding: 3rem 0;
+    font-family: 'Ubuntu';
+}
+.slugtitle{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.slugdes{
+    font-size: 1.3rem;
+}
+
+/****** 미디어쿼리 portrait ******/
+@media screen and (max-width:1024px) and (orientation:portrait){
+    .textbox{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:767px) and (orientation:portrait){
+    .textbox{
+        width: 98%;
+        padding: 0rem;
+    }
+    .border{
+        border: 0px;
+    }
+    .text{
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    .borderp{
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+    .slugbox{
+        padding: 0rem;
+        width: 100%;
+        padding: 0 1rem 0 1rem;
+        box-sizing: border-box;
+    }
+    .slugtitle{
+        font-size: 1.2rem;
+    }
+    .slugdes{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width:711px) and (max-width:712px) and (orientation:portrait){
+    .textbox{
+        width: 80%;
+    }
+    .borderp{
+        display: none;
+    }
+    .border{
+        border-bottom: 1px solid black;
+    }
+    .slugbox{
+        width: 98%;
+    }
+
+} 
+@media screen and (max-width:359px) and (orientation:portrait){
+    .textbox{
+        width: 98%;
+        margin-top: -0.5rem;
+    }
+    .text{
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+}

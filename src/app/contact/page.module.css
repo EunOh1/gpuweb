@@ -1,0 +1,228 @@
+.page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.conbox{
+    width: 60rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3rem 0 3rem 0;
+    /* text-align: center; */
+}
+.contact{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.spaceinfo{
+    width: 30rem;
+    font-size: 1.5rem;
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.infotitle{
+    width: 100%;
+    height: fit-content;
+    background-color: #2E2D2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B3B3B3;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.btnbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0 5rem 0;
+    box-sizing: border-box;
+}
+.spacebtn{
+    width: 15rem;
+    height: 2rem;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.spacebtn:hover{
+    background-color: #C5FF00;
+    color: #B3B3B3;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.emaintitlebox{
+    width: 30rem;
+}
+
+/*이메일*/
+.emailbox{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputcon{
+    color: #C5FF00;
+    height: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.inputcon [type=search] {
+    outline-offset: 0;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.inputcon:focus {
+    outline: 0;
+    color: #C5FF00;
+}
+
+.inputcon:focus::-ms-clear,
+.inputcon:focus::-ms-reveal{
+	display: none;
+    width:0;
+    height:0;
+}
+.inputcon:focus::-webkit-search-decoration,
+.inputcon:focus::-webkit-search-cancel-button,
+.inputcon:focus::-webkit-search-results-button,
+.inputcon:focus::-webkit-search-results-decoration{
+	display:none;
+}
+.inputcon::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #C5FF00;
+}
+.inputcon::-moz-placeholder{ /* Firefox 19+ */
+    color: #C5FF00;
+}
+.inputcon:-ms-input-placeholder { /* IE 10+ */
+    color: #C5FF00;
+}
+
+.inputcon:-webkit-autofill,
+.inputcon:-webkit-autofill:hover,
+.inputcon:-webkit-autofill:focus,
+.inputcon:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-transition: background-color 9999s ease-out;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset !important;
+    -webkit-text-fill-color: #C5FF00 !important;
+}
+
+
+.consendbtn{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    width: 5rem;
+    margin: 1rem auto 0px;
+}
+.consendbtn:hover{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: #B3B3B3;
+    background-color: #C5FF00;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+/****** 미디어쿼리 portrait ******/
+@media screen and (max-width:1024px) and (orientation:portrait){
+    .conbox{
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:1023px) and (orientation:portrait){
+    .conbox{
+        width: 100%;
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width:767px) and (orientation:portrait){
+    .conbox{
+        width: 98%;
+        padding: 0 0 2rem 0;
+    }
+    .contact{
+        font-size: 1.3rem;
+        padding-bottom: 1.3rem;
+    }
+    .spaceinfo{
+        width: 98%;
+        font-size: 1.2rem;
+    }
+    .emaintitlebox{
+        width: 98%;
+    }
+    .infotitle{
+        width: 100%;
+    }
+    .spacebtn{
+        width: 12rem;
+        height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .inputcon{
+        height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .consendbtn{
+        font-size: 1.2rem;
+    }
+    .consendbtn:hover{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:711px) and (max-width:712px) and (orientation:portrait){
+    .spaceinfo{
+        width: 60%;
+    }
+    .emaintitlebox{
+        width: 60%;
+    }
+} 
+@media screen and (max-width:375px) and (orientation:portrait){
+    .conbox{
+        padding: 0.5rem 0 2rem 0;
+    }
+    .contact{
+        font-size: 1.2rem;
+        padding-bottom: 1.7rem;
+    }
+    .infotitle{
+        font-size: 1.2rem;
+    }
+    .spacebtn{
+        width: 12rem;
+        height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .emailbox{
+        font-size: 1.2rem;
+    }
+}
