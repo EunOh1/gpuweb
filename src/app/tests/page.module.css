@@ -17,8 +17,8 @@
     grid-row-gap: 1rem;
 }
 .imgbox{
-    width: 20rem;
-    height: 20rem;
+    width: 70%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     box-sizing: border-box;
 }
 .img{
-    width: 70%;
+    width: 100%;
     height: auto;
 }
 
@@ -156,9 +156,14 @@
         font-size: 1.2rem;
     }
 }
-@media screen and (min-width:711px) and (max-width:712px) and (orientation:portrait){
+@media screen and (min-width:712px) and (max-width:713px) and (orientation:portrait){
     .slugbox{
         width: 60%;
+    }
+    .gridbox{
+        width: 70%;
+        box-sizing: border-box;
+        padding: 1rem 0 13rem;
     }
 } 
 @media screen and (max-width:375px) and (orientation:portrait){
