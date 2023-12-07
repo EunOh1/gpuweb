@@ -57,7 +57,8 @@ export default async function MdPageslug({ params }){
     return(
         <div className={styles.slugbox}>
             <h3 className={styles.slugtitle}>{post.title}</h3>
-            <ReactMarkdown className={styles.slugdes} children={post.content} remarkPlugins={[remarkGfm]} /> 
+            {// eslint-disable-next-line 
+            }<ReactMarkdown className={styles.slugdes} children={post.content} remarkPlugins={[remarkGfm]} /> 
         </div>
     )
 }
