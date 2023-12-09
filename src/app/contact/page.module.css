@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 3rem 0 3rem 0;
@@ -71,7 +71,7 @@
 
 /*이메일*/
 .emailbox{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 1.3rem;
 }
 .contactform{
@@ -82,7 +82,7 @@
 .inputcon{
     color: #C5FF00;
     height: 2rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin-bottom: 0.5rem;
     font-size: 1.3rem;
     background-color: transparent;
@@ -134,7 +134,7 @@
 
 
 .consendbtn{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
     background-color: transparent;
     border: 1px solid black;
@@ -142,7 +142,7 @@
     margin: 1rem auto 0px;
 }
 .consendbtn:hover{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
     color: #B3B3B3;
     background-color: #C5FF00;

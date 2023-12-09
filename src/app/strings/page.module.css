@@ -53,7 +53,7 @@
     margin: 0 auto;
     width: 50rem;
     padding: 3rem 0;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu Mono', monospace;
 }
 .slugtitle{
     text-align: center;
