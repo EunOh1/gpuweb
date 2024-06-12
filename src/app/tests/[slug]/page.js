@@ -2,6 +2,7 @@ import styles from '@/app/tests/page.module.css'
 import { testsdata } from './testsdata'
 import Link from 'next/link'
 import { basicMeta, basicViewport } from "../../basicmeta"
+import Image from 'next/image'
 
 export const metadata = basicMeta;
 export const viewport = basicViewport;
@@ -43,7 +44,20 @@ export default function TestContents({ params }){
                     data.img.map((e, i)=>{
                         return(
                             <div className={styles.slugimgbox} key={i}>
-                                <img className={styles.slugimg} src={`/assets/img/${e}`} alt='textpage img'></img>
+                                <Image 
+                                    // className={styles.slugimg}
+                                    priority //초기로딩
+                                    src={`/assets/img/${e}`}
+                                    alt='textpage img'
+                                    width={1920}
+                                    height={1080}
+                                    layout="responsive"
+                                    style={{position: 'relative', objectFit:'contain'}}
+                                    // fill 부모요소의 전체를 차지하도록 하기때문에 width,height와 함께 쓰지 않음
+                                    sizes='(max-width: 1920px) 100%, 100%'
+                                >
+                                </Image>
+                                {/* <img className={styles.slugimg} src={`/assets/img/${e}`} alt='textpage img'></img> */}
                             </div>
                         )
                     })

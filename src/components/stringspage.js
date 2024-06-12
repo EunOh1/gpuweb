@@ -64,7 +64,7 @@ export default function StringsPage (){
     return(
         <div className={styles.page}>
             <div className={styles.textbox}>
-                <p className={styles.borderp}>{'***'}</p>
+                <p className={styles.borderp}>{'✹'}</p>
                 <div className={styles.border}></div>
                 {
                     postscopy.map((e, i)=>{
@@ -79,14 +79,6 @@ export default function StringsPage (){
                         
                     })
                 }
-
-                {/* <div className={styles.numbtn}>
-                    <p>{'<'}</p>
-                    <p>1</p>
-                    <p>2</p>
-                    <p>3</p>
-                    <p>{'>'}</p>
-                </div> */}
             </div>
         </div>
     )

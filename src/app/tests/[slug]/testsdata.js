@@ -18,9 +18,9 @@ export const testsdata =[
 보여주는 방식을 아무리 갱신한들, 환영 속에 갇혀서 환영밖에 읽어내지 못하는 눈이 먼저 갱신되어야 하는게 아닐까?</p><br /><br />
 <p>사물의 소멸은 필연적이고 인간의 업데이트는 느리다.<br />
 기도나 하는게 좋을지도 모르겠다.</p><br /><br />
-<p>▫️기간 : 2023. 6. 13 ~<br />
-▫️기획 : GPU<br />
-▫️제작 : screenxyz</p></div>`,
+<p>✹기간 : 2023. 6. 13 ~<br />
+✹기획 : GPU<br />
+✹제작 : screenxyz</p></div>`,
         vr : 'https://xr.screenxyz.net/vas/sanctum'
     },
     {
@@ -30,7 +30,7 @@ export const testsdata =[
         title : '"SRC"',
         artist : ['Eun Oh'],
         date : '20 Dec 2022 ~',
-        img : ['src01.jpg'],
+        img : ['src01.png'],
         text : '',
         vr : 'https://xr.screenxyz.net/src'
     },
@@ -75,7 +75,7 @@ export const testsdata =[
         title : '"COORDINATES"',
         artist : ['Youngjea Kim'],
         date : '2 - 16 Aug 2022',
-        img : ['coord01.jpg', 'coord02.jpg', 'coord03.jpg', 'coord04.jpg', 'coord05.jpg'],
+        img : ['coord01.jpg', 'coord02.jpg', 'coord03.jpg', 'coord04.jpg'],
         text : 
 `<div><p style="font-weight:bold;text-align:center;">"work: 새로운 과거를 추동하는 회화"</p><br /><br />
 <p style="font-weight:bold;text-align:right;">권시우</p><br /><br />
@@ -91,7 +91,7 @@ export const testsdata =[
 <p>물론 그런 식으로 대상화된 과거는 여전히 ‘이미지’에 가깝지만, 작가의 의해 활성화된 인터페이스는 그것을 전방위한 객체로 수용할 수 있는 역량이 있다. 그러므로 일련의 작업들은 단순히 ‘이미지’로 현전하는 게 아니라, 전방위한 객체들을 회화적 묘법으로 포괄한 결과물로 거듭난 채, 관객으로 하여금 보다 다중화된 시점으로 ‘그림’을 파악할 것을 요구한다. 이를테면 작가는 현대미술의 도판 이미지에 수록된 회화 작업들이 실제로 어떻게 조형됐는지 복기하면서 객체로서의 ‘이미지’를 도출해내고, 그것들을 작업 내에서 말 그대로 셔플링하는 과정을 통해, 각기 다른 조형의 방법론을 회화적 묘법으로 상호 교차시킨다. 그런 의미에서 이제 ‘그림’은 평면에 종속된 상태에서 벗어나, 일종의 조형적인 오브제로 거듭난 채, 자신에게 할당된 공간을 점유해 나간다.</p><br /><br />
 <p>그러므로 회화는 더 이상 순수 평면을 지향하지 않는다. 즉 ‘이미지’에 함축된 조형의 방법론으로 ‘그림’을 전개하는 과정에서, 평면은 일종의 인터페이스적 장場으로 전환된 채, 하인리히 뵐플린이 제시한 회화적 회화와는 또 다른 맥락에서의 공간감을 확보하게 된다. 이를테면 인터페이스적 장은 사용자의 전지적인 권한 내에서 일련의 전방위한 객체들을 자유롭게 운용하게끔 유도하며, 실제로 작가는 자신이 다각도에서 포착한 ‘이미지’의 면면들을 ‘그림’의 대상으로 재/구성하고, 이를 토대로 회화적 묘법을 구사할 수 있는 가상의 공간을 마련한다. 그런 의미에서 ‘그림’은 단순히 캔버스에 투사된 ‘이미지’가 아니며, 오히려 그것이 전제하고 있는 복잡한 역학 관계를 무려 3차원에서 새롭게 해명할 수 있는 여지가 있다는 점에서, 스스로를 조각적인 회화로 규정한다.</p><br /><br />
 <p>우리는 한때 레트로 열풍을 순항하면서, 과거라는 물신을 소비주의의 맥락으로 선뜻 수렴했다. 하지만 그러한 경향은 본 전시에서 더 이상 반복될 수 없다. 왜냐하면 본 전시는 그토록 섣부르게 와해된 시간에 대한 원근법을 재/조정함으로써, 회화라는 매체가 과거의 잔해에 함몰되지 않은 채로 과거 자체에 개입할 수 있는 나름의 체계를 마련했기 때문이다. 이로써 현재라는 시간의 공백은 과거에 의해 식민화되는 대신, 오히려 과거를 조형의 대상으로 삼아, 레트로와 변별되는 새로운 과거를 구현해낸다. 이는 좀비 형식주의 이후의 상황에서, 지금의 회화가 비로소 자생하기 위한 전략을 암시한다. 그에 따르면 일련의 작업들은 미술사에서 누적된 관습을 끊임없이 변용할 수 밖에 없는 상황을 효과적으로 대변하면서, 현재의 공허를 말 그대로 다시 그리고 있다.</p><br /><br /><br />
-<p style="font-weight:bold;">작가노트</p><br /><br />
+<p style="font-weight:bold; border-top:1px solid; padding-top:1rem;">✹작가노트</p><br /><br />
 <p style="text-decoration:underline">좌표계</p><br /><br />
 <p>오늘의 회화는 어떤 좌표에서 시작해야 할까?<br />
 이미 많은 이야기들이 오고갔지만, 다시 이런 질문을 던져볼 수 있을 것 같다.<br />
@@ -133,7 +133,7 @@ export const testsdata =[
         title : '"ULT"',
         artist : ['Intan Kwak', 'Youngjea Kim', 'Seongjin Jeong'],
         date : '30 Oct - 2 Nov 2021',
-        img : ['ult01.jpg', 'ult02.jpg'],
+        img : ['ult01.jpg'],
         text : '',
         vr : ''
     },
@@ -144,7 +144,7 @@ export const testsdata =[
         title : '"AUTO"',
         artist : ['Intan Kwak', 'Youngjea Kim', 'Eun Oh'],
         date : '2-8 September 2021',
-        img : ['auto01.jpg', 'auto02.jpg'],
+        img : ['auto01.jpg'],
         text : '',
         vr : ''
     }
